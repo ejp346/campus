@@ -1,0 +1,540 @@
+html, body{
+   overflow-x: hidden;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   color:black;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: Arial, sans-serif;
+ }
+
+strong {
+  font-weight: bold;
+}
+
+a, li {
+   font-size: 18px;
+}
+
+h1 {
+   font-size: 64px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+/*Media Queries*/
+
+@media (max-width: 600px) {
+   .logo img {
+   width: 50%;
+  }
+  .logo {
+   position: absolute;
+   top: 30px;
+}
+.bookimages p {
+      font-size: 10px;
+   }
+}
+
+@media (max-width: 649px) {
+   .middle ul li, .email, .social, .copyright {
+      text-align: center;
+      padding-bottom: 20px;
+   }
+   .lkbkmiddle {
+      padding-bottom: 20px;
+   }
+   .btnfooter {
+      background-color: white;
+      padding: 3px 10px;
+      text-align: center;
+}
+   .btnfooter a {
+      color: black;
+}
+}
+
+@media (min-width: 650px) {
+
+footer .middle ul, .lkbkmiddle ul {
+   padding-right: 20%
+}
+.middle ul li, .lkbkmiddle ul li {
+   text-align: right;
+}
+
+.bottom {
+   display: table;
+}
+.social, .middle, .email, .copyright, .lkbkmiddle {
+   display: table-cell;
+   width: 25%;
+}
+.copyright {
+   text-align: right;
+}
+.btnfooter a {
+   color: white;
+}
+.bottom {
+   width: 96%;
+}
+}
+
+@media (max-width: 899px){
+   .action {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: #F4F4F4;
+      margin-top: -6px;
+   }
+   .action h1 {
+      font-size: 40px;
+   }
+   .action h1, .action p {
+      text-align: center;
+   }
+   .btn {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+   }
+}
+
+@media (min-width: 900px) {
+   .action {
+   position: absolute;
+   right: 30px;
+   bottom: 120px;
+ }
+ .btn {
+   display: inline-block;
+ }
+ .action h1, .action p {
+   color: white;
+}
+}
+
+@media (max-width: 997px) {
+   .container {
+      width: 80%;
+      overflow: hidden;
+   }
+   .container h1, .shopheader h1 {
+      font-size: 40px;
+      text-align: center;
+   }
+   .container h1 {
+      margin-bottom: 30px;
+   }
+   .shopheader p {
+      text-align: center;
+   }
+   .groupimg .img1 a img, .choosehat a img, .choosedesign a img, .addtext a img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+   }
+
+   .groupimg .img4 a img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+   }
+   .img2 a img, .img3 a img, .img5 a img, .img6 a img {
+      width: 328px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+   }
+   .img2 .lookbooktext {
+      margin-left: 30%;
+      margin-right: 20%;
+      bottom: 0px;
+   }
+   .search, .feature, .lkbksearch, .lkbkfeature {
+      display: none;
+   }
+  .logo {
+   position: absolute;
+   top: 20px;
+  }
+   .menu {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+   }
+   .lkbkmenu {
+      position: absolute;
+      top: 50px;
+      right: 40px;
+   }
+   .lkbkimg1 a img, .lkbkimg2 a img, .lkbkimg3 a img, .lkbkimg4 a img, .lkbkimg5 a img, .lkbkimg6 a img, .lkbkimg7 a img, .lkbkimg8 a img, .lkbkimg9 a img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 8px;
+   }
+}
+
+@media (min-width: 998px) {
+   .container {
+      width: 1000px;
+   }
+   .container h1 {
+   padding-bottom: 30px;
+}
+
+.groupimg {
+   float: left;
+}
+
+.groupimg .img1 {
+   padding-right:30px;
+   padding-bottom: 30px;
+}
+
+.groupimg .img4 {
+   margin-top: -4px;
+}
+
+.img2 {
+   float:left;
+   padding-right: 30px;
+}
+.img3 {
+   padding-bottom: 30px;
+}
+
+.img5 {
+   float: left;
+   margin-top: -4px;
+   padding-right: 30px;
+}
+
+.img6 {
+   margin-top: -4px;
+   padding-bottom: 26px;
+}
+.img2 .lookbooktext {
+   bottom: 0px;
+   left: 10px;
+ }
+ .lkbkbody {
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+ .lkbkimg147 {
+   float: left;
+}
+.lkbkimg258 {
+   float: left;
+}
+.lkbkimg147 {
+   padding-right: 8px;
+}
+.lkbkimg258 {
+   padding-right: 8px;
+}
+.lkbkimg1, .lkbkimg2, .lkbkimg3, .lkbkimg4, .lkbkimg5, .lkbkimg6, .lkbkimg7, .lkbkimg8, .lkbkimg9 {
+   padding-bottom: 4px;
+}
+/*Shop*/
+
+.shopcontainer {
+   width: 1000px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.choosehat a img, .choosedesign a img, .addtext a img {
+   width: 313.33333333px;
+}
+.choosehat, .choosedesign {
+   float: left;
+   margin-right: 30px;
+}
+
+/*Header*/
+.searchbar {
+   float: right;
+}
+.searchbar li a i {
+   color: black;
+   padding-left: 20px;
+}
+.leftsearch {
+   padding-right: 20px;
+}
+.feature li {
+   margin-right: 70px;
+}
+.top {
+   position: absolute;
+   top:20px;
+   width: 100%;
+   display: table;
+}
+.feature, .search {
+   display: table-cell;
+   vertical-align: middle;
+}
+.action p {
+   font-size: 24px;
+}
+.menu, .lkbkmenu {
+   display: none;
+}
+
+.lkbkfeature {
+   margin: 0;
+   display: table-cell;
+   vertical-align: middle;
+}
+.lkbksearchbar, .lkbkfeature {
+   list-style-type: none;
+}
+.lkbksearchbar li, .lkbkfeature li {
+   display: inline;
+}
+.lkbksearchbar li {
+   margin-left: 5px;
+}
+.lkbkfeature li a{
+   text-decoration: none;
+}
+.lkbksearch {
+   display: table-cell;
+   vertical-align: middle;
+   padding-right: 40px;
+}
+.lkbksearchbar {
+   margin: 0;
+   float: right;
+   padding-left: 0;
+}
+.lkbkfeature li a{
+   padding-right: 70px;
+   color: black;
+}
+.lkbksearchbar li a i {
+   color: black;
+}
+.lkbksearchbar li {
+   padding-left: 20px;
+}
+}
+
+@media (max-width: 1200px) {
+   .action h1 {
+      font-size: 50px;
+   }
+   .action p {
+      font-size: 18px;
+   }
+}
+
+
+/*Header*/
+
+.background img {
+   width: 100%;
+}
+.background {
+   position: relative;
+}
+.search {
+   margin: 0;
+   padding-right: 40px;
+}
+.logo {
+   float: left;
+   padding-left: 40px;
+}
+.feature {
+   margin: 0;
+}
+.feature li, .searchbar li {
+   display: inline;
+   list-style-type: none;
+}
+
+.feature li a {
+   text-decoration: none;
+   color: black;
+}
+.feature li a:hover {
+   color: #FFFFFF;
+}
+
+.btn {
+   background-color: black;
+   border-radius: 4px;
+   padding: 15px 50px;
+   margin-top: 30px;
+   width: 30%;
+   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   text-align: center;
+}
+.btn a {
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+}
+
+/*Shop*/
+
+.shopcontainer {
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+.items {
+   margin-top: 30px;
+}
+
+/*lookbook*/
+
+.lookbook {
+   background: #F4F4F4;
+}
+
+.container {
+margin-right: auto;
+margin-left: auto;
+padding-top: 30px;
+}
+
+.img2 {
+   position: relative;
+}
+
+.img2 .lookbooktext {
+   
+   color: white;
+   position: absolute;
+   
+}
+.img2 .lookbooktext img {
+   margin-left: 5px;
+   margin-bottom: 2px;
+}
+.lookbooktext h4 a {
+   color: white;
+}
+.lookbooktext h4 a {
+   text-decoration: none;
+}
+
+/*Footer*/
+
+footer ul {
+   list-style-type: none;
+}
+footer {
+   background: black;
+   margin: 0;
+}
+footer .social ul {
+   margin: 0;
+   padding: 0;
+}
+.bottom {
+   padding: 20px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.social ul li {
+   margin-right: 10px;
+}
+.social ul li a, .middle ul li a, .lkbkmiddle ul li a {
+   color: white;
+}
+.middle, .lkbkmiddle {
+   margin: 0;
+}
+.email p {
+   color: white;
+   font-size: 12px;
+   padding-bottom: 10px;
+}
+footer .email ul, .middle ul, .lkbkmiddle ul {
+   margin: 0;
+   padding: 0;
+}
+.social ul li, .email ul li {
+   display: inline;
+}
+footer .copyright {
+   color: white;
+   font-size: 12px;
+}
+.middle ul li a, .lkbkmiddle ul li a {
+   text-decoration: none;
+}
+.middle ul li a, .lkbkmiddle ul li a{
+   font-size: 14px;
+}
+
+.middle ul li, .lkbkmiddle ul li {
+   padding-bottom: 10px;
+}
+.btnfooter a {
+   font-size: 12px;
+   text-decoration: none;
+   
+}
+
+
+
+/*Lookbookpage*/
+
+.lkbktop {
+   display: table;
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   position: relative;
+}
+
+.lkbklogo {
+   padding-left: 40px;
+}
+
+.lkbkmiddle ul li {
+   text-align: center;
+}
+
+.lkbkfeature li a:hover {
+   color: pink;
+}
+
+.lookbookbackground img {
+   width: 100%;
+}
+.bookimages {
+   background: #E9E9E9;
+   margin-top: -5px;
+}
+.bookimages p {
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   color: #979797;
+}
+span {
+   text-decoration: underline;
+}
